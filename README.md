@@ -1,5 +1,7 @@
 # Koken backup
 
+_Disclaimer : I know, core is horrible. It's base upon some existing koken code._
+
 Koken store it's picture into lots of subdirectories, without any option to grab all picture from an album in case of you want to backup (or migrate to an other system) them.
 
 This little script allow to make an export of a complete album into one subdirectory.
