@@ -4,6 +4,8 @@ Koken store it's picture into lots of subdirectories, without any option to grab
 
 This little script allow to make an export of a complete album into one subdirectory.
 
+The koken_backup.php file needs to be in the koken's root directory.
+
 Example : 
 ```
 php koken_backup.php id=12
