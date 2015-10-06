@@ -1,6 +1,6 @@
 # Koken backup
 
-Disclaimer : I know, core is horrible. It's base upon some existing koken code.
+Disclaimer : I know, code is horrible. It's base upon some existing koken code.
 
 Disclaimer 2: __DO NOT LEAVE THIS SCRIPT ON A PRODUCTION SERVER__, it does not respect any access right, and SQL query are not safely done
 
