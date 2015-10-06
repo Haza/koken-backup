@@ -14,4 +14,4 @@ Example :
 ```
 php koken_backup.php id=12
 ```
-This will export the album 12 into a "storage/backup/<album_machine_name>/" directory.
+This will export the album 12 into a `storage/backup/<album_machine_name>/` directory.
