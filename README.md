@@ -1,6 +1,8 @@
 # Koken backup
 
-_Disclaimer : I know, core is horrible. It's base upon some existing koken code._
+Disclaimer : I know, core is horrible. It's base upon some existing koken code.
+
+Disclaimer 2: __DO NOT LEAVE THIS SCRIPT ON A PRODUCTION SERVER__, it does not respect any access right, and SQL query are not safely done
 
 Koken store it's picture into lots of subdirectories, without any option to grab all picture from an album in case of you want to backup (or migrate to an other system) them.
 
