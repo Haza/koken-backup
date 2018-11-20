@@ -52,7 +52,7 @@ if ($interface == 'mysqli') {
   while ($row = $result->fetch_assoc()) {
     $internal_path = substr($row['internal_id'], 0, 2) . $ds . substr($row['internal_id'], 2, 2);
     $original = $content . $ds . 'originals' . $ds . $internal_path . $ds . $row['filename'];
-    $destination = $content . $ds . 'backup' . $ds . $slug . $row['filename'];
+    $destination = $content . $ds . 'backup' . $ds . $slug . $ds . $row['filename'];
     if (file_exists($original) && copy($original, $destination)) {
       print_r('Copied ' . $original . ' to ' . $destination . PHP_EOL);
       $count_success++;
